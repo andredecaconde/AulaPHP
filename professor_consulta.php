@@ -12,21 +12,29 @@
 <?php include "menu.php"?>
 
 <div class="conteudo">
-    <h3>consulta de alunos</h3>
+    <h3>consulta de professor</h3>
 
     <table>
         <tr>
             <th>Codigo</th>
             <th>Nome</th>
-            <th>Cidade</th>
-            <th>Estado</th>
+            <th>Area</th>
+            <th>Graduação</th>
         </tr>
 
         <tr>
-            <td>1</td>
-            <td>André</td>
-            <td>São Jose do Rio Pardo</td>
-            <td>SP</td>
+            <td>1001</td>
+            <td>Rogerio</td>
+            <td>Informatica</td>
+            <td>Informatica com enfase Gestão</td>
+        </tr>
+
+
+        <tr>
+            <td>1002</td>
+            <td>Aldy</td>
+            <td>Informatica</td>
+            <td>Ciencia da Computação</td>
         </tr>
 
     </table>
