@@ -3,31 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro de Disciplina</title>
+    <title>Disciplina Cadastro</title>
 </head>
 <body>
-    <h1>Cadastro de Disciplina</h1>
-
-    <form action="disciplina_consulta.php">
-
-        <p>
-            Informe o nome da disciplina: <br>
+    <h1> Cadastro de Disciplinas </h1>
+    <form name="Enviar" method="POST" action="disciplina_cadastro.php">
+        <fieldset>
+            <p>Informe o nome da disciplina:</p>
             <input type="text" name="disciplina">
-        </p>
 
-        <p>
-            Escolha o curso: <br>
-            <input type="radio" name="curso" value="Info"> Técnico em Informática para Internet <br>
-            <input type="radio" name="curso" value="Qui"> Técnico em Química <br>
-            <input type="radio" name="curso" value="LCHS"> Técnico em Línguagems de Ciências Humanas e Sociais <br>
-            <input type="radio" name="curso" value="DS"> Técnico em Desenvolvimento de Sistema <br>
-        </p>
+            <p>Escolha o curso</p>
+            <select name="curso">
+            <option value="Escolha o curso">Escolha o curso</option>
+          
+            </select>
 
-        <p>
-            <input type="submit" value="Cadastrar Disciplina" name="Enviar">
-        </p>
-
-    </form>
-
-</body>
-</html>
+            <br>
+            <br>
+            <input type="submit" name="Enviar" value="Cadastrar Disciplina"> 
+        </fieldset>

@@ -2,18 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aluno Consulta</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <?php
-        if(isset($_REQUEST["Enviar"])){
-            $alunos=$_REQUEST['alunos'];
-            $curso=$_REQUEST['curso'];
+<?php include "menu.php" ?>
+   <div class="conteudo">
 
-        echo "<br> Nome do aluno:  $alunos" ;
-        echo "<br> Curso escolhido: $curso ";
-        }
-    ?> 
+   <h3> Consulta de Alunos </h3>
+
+   <table>
+     <tr>
+        <th> Código </th>
+        <th> Nome </th>
+        <th> Cidade </th>
+        <th> Estado </th>
+     </tr>
+
+     <tr>
+     <td> 1 </td>
+     <td> Gabriel </td>
+     <td> Caconde </td>
+     <td> SP </td>
+</tr>
+   </table>
+
+</div>
 </body>
 </html>
